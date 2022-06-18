@@ -31,11 +31,13 @@ Com a venv aberta utilize o comando `py main.py`, com isso, teremos a API rodand
 Por tratar de testes, estaremos num ambiente local portanto (localhost)
 
 No caminho inicial apenas teremos uma mensagem padrão 'Scanner Funfa'
+
 home -> localhost:portaPadrãoFlask/
 
-No caminho foto, temos apenas o method post aplicado que atualmente apenas recebe um arquivo (Da para mundar para apenas json via codificação base64). 
+No caminho birdView, temos apenas o method post aplicado que atualmente apenas recebe um arquivo (Da para mundar para apenas json via codificação base64). 
 De resposta após teremos o retorno da imagem com a bird view aplicada no formato base 64 (não tem nenhum tratamento no momento em relação aos request e response)
-foto -> localhost:portaPadrãoFlask/foto
+
+birdView -> localhost:portaPadrãoFlask/birdView
 
 ## Verificando Retorno
 
